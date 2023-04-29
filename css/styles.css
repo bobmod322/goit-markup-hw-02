@@ -1,15 +1,21 @@
 :root {
   --maint-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --back-color: #FFFFFF;
+  --color-sec: #434455;
+  --color-main:#2e2f42;
 }
 body {
   font-family: var(--maint-font);
+  color: var(--color-main);
+  background-color:var(--back-color)
 }
 /* navigation link */
 .link-logo {
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -20,12 +26,12 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-main);
 }
 /* delete point */
 .list {
@@ -39,20 +45,29 @@ body {
 button {
   cursor: pointer;
 }
+
 /* list navigation */
-.list-navigation {
+/* .list-navigation {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+  color: #2e2f42;} */
+
+  .list-nav { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-main);}
+
+.list-link:hover,
 .list-link:visited {
   color: #2e2f42;
 }
 /* mobile and mail */
 .adress-link {
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -70,12 +85,13 @@ button {
 .main-text-head {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .button-order {
+  font-family: var(--maint-font);
   width: 169px;
   height: 56px;
   left: 636px;
@@ -84,7 +100,6 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   /* text in  button */
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -92,6 +107,15 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+  
+/* background button */
+.button-order:hover,
+.button-order:focus {
+  background-color: #404BBF;
+}
+
+
+
 /* strategy 2 */
 .strategy-head {
   font-style: normal;
@@ -112,7 +136,7 @@ button {
 .what-are-head {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -125,7 +149,7 @@ button {
 .team-head {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -138,6 +162,9 @@ button {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.team-list-img {
+  background-color: #FFFFFF;
 }
 
 /* team list profession (p) */
