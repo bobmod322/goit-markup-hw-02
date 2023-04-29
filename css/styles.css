@@ -7,7 +7,8 @@
 }
 body {
   font-family: var(--maint-font);
-  background-color:var(--back-color)
+  background-color:var(--back-color);
+  color: var(--color-sec);
 }
 /* navigation link */
 .link-logo {
@@ -54,9 +55,9 @@ button {
     color: var(--color-main);}
     .list-link:hover,
     .list-link:focus {color: #404BBF;}
-.list-link:visited {color:#2E2F42;}
+    .list-link:visited {color:#2E2F42;}
 /* mobile and mail */
-.adress-link {
+.adress-nav {
   font-style:normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,6 +65,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .adress-link:focus,
 .adress-link:hover {
   color: #404bbf;
