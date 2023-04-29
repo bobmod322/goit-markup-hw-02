@@ -7,7 +7,6 @@
 }
 body {
   font-family: var(--maint-font);
-  color: var(--color-main);
   background-color:var(--back-color)
 }
 /* navigation link */
@@ -47,27 +46,18 @@ button {
 }
 
 /* list navigation */
-/* .list-navigation {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;} */
-
   .list-nav { 
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-main);}
-
-.list-link:hover,
-.list-link:visited {
-  color: #2e2f42;
-}
+    .list-link:hover,
+    .list-link:focus {color: #404BBF;}
+.list-link:visited {color:#2E2F42;}
 /* mobile and mail */
 .adress-link {
-  
+  font-style:normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
