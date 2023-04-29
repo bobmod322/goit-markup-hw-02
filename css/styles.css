@@ -200,6 +200,7 @@ color: var(--color-sec)
 /* PORTFOLIO CSS */
 /* Filter buttons */
 .button-filters-all {
+  font-family: var(--maint-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -213,6 +214,7 @@ color: var(--color-sec)
   border-radius: 4px;
 }
 .button-filters-web {
+  font-family: var(--maint-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -226,6 +228,7 @@ color: var(--color-sec)
   border-radius: 4px;
 }
 .button-filters-app {
+  font-family: var(--maint-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -239,6 +242,7 @@ color: var(--color-sec)
   border-radius: 4px;
 }
 .button-filters-design {
+  font-family: var(--maint-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -252,6 +256,7 @@ color: var(--color-sec)
   border-radius: 4px;
 }
 .button-filters-marketing {
+  font-family: var(--maint-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
